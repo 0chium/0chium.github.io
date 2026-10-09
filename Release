@@ -1,0 +1,18 @@
+Origin: 0chium's Repo
+Label: 0chium's Repo
+Components: main
+Architectures: iphoneos-arm64
+Description: 0chium's Repo — rootless jailbreak tweaks
+Date: Fri, 09 Oct 2026 11:13:48 GMT
+MD5Sum:
+ cc6dd01bb25eeca9243023246c11bf28 743 Packages
+ 7d923eaccdae1c7ad049895a4145e5d3 491 Packages.gz
+SHA1:
+ b06ba7dbaaab509090951a0bff233bc673851aa3 743 Packages
+ abafb93340faae6c957fce5957fa8f4b6ca8d8ae 491 Packages.gz
+SHA256:
+ 1256f855721f1d8bf0b2d5db6bb7a40b78b54c3bf1846e44ed5bef1ce63198ac 743 Packages
+ 9e84ee50182086f2c871fffb88b52e43b24c88071917cffa561b74c75386c817 491 Packages.gz
+SHA512:
+ b8d58d339e1ddcdfb834ddca72334c83f93777052c5bd3c1fb04611d4878479c39595cebdf07f939d10f54e942a2f5b458a15a0c28d87d0c210594457eacdb3c 743 Packages
+ 1da214fb0c3ab2eb2a7fcc45f8c3be5568dadd32475b69e45135608fb64bb7dd10b152ac35a722172290861abec65c20fa0d96550bc8eb2da22bcfb3adc69e31 491 Packages.gz
