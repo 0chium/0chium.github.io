@@ -17,3 +17,25 @@ SHA512: 0f08e7cd6fd624ceae0be1667d49e942df830f52c1d5672c86533891aedf66ad2257d734
 Icon: https://0chium.github.io/assets/Lantern-public-on.png
 Depiction: https://0chium.github.io/depiction.html
 
+Package: com.ochium.advancedbrightnessslider
+Name: AdvancedBrightnessSlider Continued
+Description: Independently maintained compatibility fork of Jonas Schiefner's AdvancedBrightnessSlider
+Maintainer: 0chium
+Author: Jonas Schiefner
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Conflicts: com.jschiefner.advancedbrightnessslider
+Replaces: com.jschiefner.advancedbrightnessslider
+Homepage: https://github.com/0chium/AdvancedBrightnessSlider-Continued
+Depiction: https://0chium.github.io/depictions/advancedbrightnessslider.html
+Icon: https://0chium.github.io/assets/advancedbrightnessslider.png
+Architecture: iphoneos-arm64
+Version: 1.2.1+0chium.1
+Installed-Size: 560
+Filename: debs/com.ochium.advancedbrightnessslider_1.2.1+0chium.1_iphoneos-arm64.deb
+Size: 69974
+MD5sum: d5dc3b172a7b70c2fa4eaf0f9fcf5c14
+SHA1: 7a85de7e663d32b5d7fde32390adffcf04953bbf
+SHA256: 0c3e82842758ac54400502c55bdb364face35308fda3d9a901347e7b3c8f2d81
+SHA512: c24cca9a4748d654bca42bf4d744ceb7785692f811e794aa74f7d555052e4c0f471b45c4541fbbd64ce636549138cace90d1d68e9edba3e1f0a0efa1a2232a9e
+
