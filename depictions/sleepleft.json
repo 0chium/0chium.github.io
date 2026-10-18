@@ -22,11 +22,20 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Use with AlarmTime"
+          "title": "Install and use"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Block AlarmTime in Clock before using Sleep Left. The internal injection entry remains FiveMoreMinutes. With existing Choicy controls, use Settings → Choicy → Applications → Clock → Custom Tweak Configuration. In Deny mode, mark AlarmTime ON and leave FiveMoreMinutes OFF in that deny list; preserve other entries. If already using Allow mode, retain it and set AlarmTime OFF / FiveMoreMinutes ON. Do not disable all tweak injection for Clock. Fully close and reopen Clock. To restore AlarmTime, first block FiveMoreMinutes and restore the prior Clock configuration. AlarmTime is never removed or disabled automatically.",
+          "markdown": "Install Sleep Left, fully close and reopen Clock, then open Alarms. The countdown appears automatically. No separate app, settings pane or extra configuration. AlarmTime and Choicy are not required.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Other countdown tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "If you already use another alarm-countdown tweak, disable or remove it before using Sleep Left so only one modifies the alarm rows.",
           "useSpacing": true
         },
         {
@@ -35,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Inspired by AlarmTime by P2KDev. Independently implemented. This is 0chium's implementation, not an AlarmTime fork or an endorsed continuation. Original implementation by 0chium. Code and approved artwork are MIT licensed; no AlarmTime code or artwork is included.",
+          "markdown": "Independently developed by 0chium, inspired by AlarmTime by P2KDev. Original code and included crescent artwork are MIT licensed. No AlarmTime code or artwork is included.",
           "useSpacing": true
         },
         {
@@ -62,7 +71,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "The owner reports initial functional passes for **0.1.0~alpha1** on **iPhone 14 Pro — iOS 17.0 (21A329)** and **iPhone 11 Pro Max — iOS 18.3.2 (22D82)**, with AlarmTime blocked through Choicy. Checks covered enabled/disabled countdowns, custom labels, editing/toggling, scrolling without duplicate or mismatched text, and catch-up after returning to Clock. These are owner reports, not comprehensive compatibility, accessibility, calendar-edge-case or performance certification. The final **0.1.0** package has not itself received device testing.",
+          "markdown": "The owner reports initial functional passes for **0.1.0~alpha1** on **iPhone 14 Pro — iOS 17.0 (21A329)** and **iPhone 11 Pro Max — iOS 18.3.2 (22D82)**, without another alarm-countdown tweak active. Checks covered enabled/disabled countdowns, custom labels, editing/toggling, scrolling without duplicate or mismatched text, and catch-up after returning to Clock. These are owner reports, not comprehensive compatibility, accessibility, calendar-edge-case or performance certification. The final **0.1.0** package has not itself received device testing.",
           "useSpacing": true
         },
         {
