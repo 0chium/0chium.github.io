@@ -9,11 +9,11 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Beyond minimum."
+          "title": "Go beyond minimum brightness."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "One familiar Control Center slider for ordinary brightness and extra dimming through Apple's native Reduce White Point.\n\nAbove your chosen threshold, adjust normal brightness. Below it, brightness stays at minimum while Reduce White Point progressively dims the display. Configure the split in Settings.",
+          "markdown": "Adjust brightness and extra dimming with the same Control Center slider. Above your chosen threshold, it controls normal brightness. Below it, Apple's native Reduce White Point dims the screen further while brightness stays at minimum.",
           "useSpacing": true
         },
         {
@@ -37,43 +37,38 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Original, unmodified Jonas Schiefner project screenshots and illustrations. They show the original interface and may differ from the current fork; their labels and settings guidance do not establish newly tested iOS support. Current installation guidance and compatibility are below.",
+          "markdown": "Screenshots and illustrations from Jonas Schiefner's original project. The current Settings pane may differ.",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Continued, independently"
+          "title": "Your preferred balance"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Original developer: **Jonas Schiefner**. Compatibility maintainer: **0chium**. This independently maintained GPL-3.0 fork retains the original preferences and adds narrowly scoped compatibility handling. No original-developer endorsement is implied.",
+          "markdown": "Start with the default 30% split, or open **AdvancedBrightnessSlider Continued** in Settings and adjust **Threshold**. Threshold changes apply automatically.\n\nThe Settings pane requires **PreferenceLoader** and **Cephei Tweak Support**. This package replaces the original AdvancedBrightnessSlider and retains existing preferences.",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Setup and preferences"
+          "title": "Continued with credit"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Requires mobilesubstrate 0.9.5000 or later and Cephei (ws.hbang.common) 1.17 or later. Rootless package.\n\nThis package replaces com.jschiefner.advancedbrightnessslider. Review the package-manager replacement transaction; do not force co-installation. Existing preference storage is retained. The owner reported successful candidate replacement with the threshold preserved on iOS 18.3.2; other migration scenarios are not certified.",
+          "markdown": "Originally developed by **Jonas Schiefner**. Independently maintained by **0chium**, with compatibility updates for the specific builds listed in Compatibility. Free and GPL-3.0 licensed.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "Source and installation",
+          "title": "Source and documentation",
           "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued",
           "openExternal": true
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "Report an issue",
+          "title": "Support",
           "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued/issues",
           "openExternal": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Reports are public. Remove passwords, tokens, Apple Account details, unique device identifiers and sensitive information from attachments.",
-          "useSpacing": true
         }
       ]
     },

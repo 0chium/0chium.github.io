@@ -9,11 +9,11 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Warm light, natively."
+          "title": "A warmer light."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Tap Lantern for warm/yellow light in Control Center. Press and hold for Apple's native intensity slider. Keep Apple's stock flashlight for white light.\n\nFree, with optional development support. Check the Compatibility tab before installing.",
+          "markdown": "Warm light, right in Control Center. Tap Lantern to turn it on. Press and hold to adjust brightness with Apple's native intensity slider. Keep the stock flashlight for white light.",
           "useSpacing": true
         },
         {
@@ -37,16 +37,16 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Authentic screenshots from the tested iPhone SE (2nd generation). Tap to enlarge. Screenshots show the existing interface, not evidence of support on another device.",
+          "markdown": "Shown on iPhone SE (2nd generation).",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Install and activate"
+          "title": "Made for Control Center"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Turn the flashlight OFF and close Camera before installing, updating or removing Lantern. Requires compatible CCSupport and mobilesubstrate.\n\nThe package has no automatic activation scripts. On the documented Dopamine rootless configurations, cameracaptured must be restarted and SpringBoard reloaded using the linked instructions. A respring alone is not the verified complete procedure. RootHide activation and recovery remain unverified.",
+          "markdown": "Add Lantern using Control Center's editing controls. No Settings pane or preferences to configure.\n\nRequires compatible CCSupport. Complete the documented activation step after installation on the tested Dopamine rootless configurations.",
           "useSpacing": true
         },
         {
@@ -66,11 +66,6 @@
           "title": "Report a problem",
           "action": "https://github.com/0chium/Lantern/issues/new?template=bug_report.yml",
           "openExternal": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Reports are public. Do not post passwords, tokens, Apple Account details, unique device identifiers or unredacted sensitive logs. Logs are optional.",
-          "useSpacing": true
         },
         {
           "class": "DepictionTableButtonView",

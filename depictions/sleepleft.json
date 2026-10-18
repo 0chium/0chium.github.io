@@ -8,54 +8,45 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Time remaining, in Clock."
+          "title": "Time remaining. Right in Clock."
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Live hours/minutes/seconds in ordinary Clock alarm subtitles, including disabled alarms. Native labels and controls stay in place; snooze and scheduling stay unchanged.",
+          "markdown": "See the hours, minutes and seconds until your alarms, updated live in Apple's Clock app. Sleep Left adds the countdown beneath each ordinary alarm, alongside your existing label.",
           "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Disabled countdowns preview the configured next occurrence; a disabled alarm remains disabled. No separate app or settings bundle. Conventional rootless package; mobilesubstrate dependency.",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Install and use"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Install Sleep Left, fully close and reopen Clock, then open Alarms. The countdown appears automatically. No separate app, settings pane or extra configuration. AlarmTime and Choicy are not required.",
+          "markdown": "Enabled and disabled alarms both show a countdown. For a disabled alarm, the countdown is a preview; the alarm stays off. Sleep/Wake Up alarms are not included.",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Other countdown tweaks"
+          "title": "Ready when you open Clock"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "If you already use another alarm-countdown tweak, disable or remove it before using Sleep Left so only one modifies the alarm rows.",
+          "markdown": "Install Sleep Left, fully close and reopen Clock, then open Alarms. No Settings pane or extra configuration.",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Independent implementation"
+          "title": "Credits"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Independently developed by 0chium, inspired by AlarmTime by P2KDev. Original code and included crescent artwork are MIT licensed. No AlarmTime code or artwork is included.",
+          "markdown": "Independently developed by **0chium**, inspired by **AlarmTime by P2KDev**. Original code and included crescent artwork are MIT licensed. No AlarmTime code or artwork is included.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "Source and installation",
+          "title": "Source and documentation",
           "action": "https://github.com/0chium/SleepLeft",
           "openExternal": true
         },
         {
           "class": "DepictionTableButtonView",
-          "title": "Report an issue",
+          "title": "Support",
           "action": "https://github.com/0chium/SleepLeft/issues",
           "openExternal": true
         }
@@ -81,6 +72,15 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "Sleep/Wake Up is excluded. No blanket iOS 17/18 or iOS 26 support. Other configurations and RootHide conversion are unverified. Recurrence/DST and snooze/time-zone edge cases are not comprehensively tested. VoiceOver custom content and large text remain unverified by owner testing. No measured battery, CPU or reliability claims. Countdown units are English.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Other countdown tweaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "If another alarm-countdown tweak is installed, disable or remove it so only one modifies the alarm rows.",
           "useSpacing": true
         }
       ]
