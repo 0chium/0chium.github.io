@@ -1,0 +1,106 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Time remaining, in Clock."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Live hours/minutes/seconds in ordinary Clock alarm subtitles, including disabled alarms. Native labels and controls stay in place; snooze and scheduling stay unchanged.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Disabled countdowns preview the configured next occurrence; a disabled alarm remains disabled. No separate app or settings bundle. Conventional rootless package; mobilesubstrate dependency.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Use with AlarmTime"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Block AlarmTime in Clock before using Sleep Left. The internal injection entry remains FiveMoreMinutes. With existing Choicy controls, use Settings → Choicy → Applications → Clock → Custom Tweak Configuration. In Deny mode, mark AlarmTime ON and leave FiveMoreMinutes OFF in that deny list; preserve other entries. If already using Allow mode, retain it and set AlarmTime OFF / FiveMoreMinutes ON. Do not disable all tweak injection for Clock. Fully close and reopen Clock. To restore AlarmTime, first block FiveMoreMinutes and restore the prior Clock configuration. AlarmTime is never removed or disabled automatically.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Independent implementation"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Inspired by AlarmTime by P2KDev. Independently implemented. This is 0chium's implementation, not an AlarmTime fork or an endorsed continuation. Original implementation by 0chium. Code and approved artwork are MIT licensed; no AlarmTime code or artwork is included.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source and installation",
+          "action": "https://github.com/0chium/SleepLeft",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Report an issue",
+          "action": "https://github.com/0chium/SleepLeft/issues",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Compatibility",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Specific owner-reported results"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The owner reports initial functional passes for **0.1.0~alpha1** on **iPhone 14 Pro — iOS 17.0 (21A329)** and **iPhone 11 Pro Max — iOS 18.3.2 (22D82)**, with AlarmTime blocked through Choicy. Checks covered enabled/disabled countdowns, custom labels, editing/toggling, scrolling without duplicate or mismatched text, and catch-up after returning to Clock. These are owner reports, not comprehensive compatibility, accessibility, calendar-edge-case or performance certification. The final **0.1.0** package has not itself received device testing.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Limitations"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Sleep/Wake Up is excluded. No blanket iOS 17/18 or iOS 26 support. Other configurations and RootHide conversion are unverified. Recurrence/DST and snooze/time-zone edge cases are not comprehensively tested. VoiceOver custom content and large text remain unverified by owner testing. No measured battery, CPU or reliability claims. Countdown units are English.",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.1.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "First public release as Sleep Left. Accepted implementation unchanged from the tested alpha. New package identity, approved crescent artwork, source/support links and documentation. Conflicts with and replaces com.ochium.fivemoreminutes; one injection pair, with internal names retained.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "This final package has not itself received device testing.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Full changelog",
+          "action": "https://github.com/0chium/SleepLeft/blob/main/CHANGELOG.md",
+          "openExternal": true
+        }
+      ]
+    }
+  ]
+}
