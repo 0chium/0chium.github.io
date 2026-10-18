@@ -1,0 +1,195 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://0chium.github.io/assets/advancedbrightnessslider/banner.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Beyond minimum."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "One familiar Control Center slider for ordinary brightness and extra dimming through Apple's native Reduce White Point.\n\nAbove your chosen threshold, adjust normal brightness. Below it, brightness stays at minimum while Reduce White Point progressively dims the display. Configure the split in Settings.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{180, 343.4}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://0chium.github.io/assets/advancedbrightnessslider/iphone_slider.png",
+              "accessibilityText": "Original Jonas Schiefner project illustration: brightness and White Point regions in Control Center; not a new compatibility test"
+            },
+            {
+              "url": "https://0chium.github.io/assets/advancedbrightnessslider/iphone_settings.png",
+              "accessibilityText": "Original project Settings screenshot with threshold preferences and original developer links; not the current fork UI"
+            },
+            {
+              "url": "https://0chium.github.io/assets/advancedbrightnessslider/explanation.png",
+              "accessibilityText": "Original project diagram explaining the adjustable threshold between brightness and White Point"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Original, unmodified Jonas Schiefner project screenshots and illustrations. They show the original interface and may differ from the current fork; their labels and settings guidance do not establish newly tested iOS support. Current installation guidance and compatibility are below.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Continued, independently"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Original developer: **Jonas Schiefner**. Compatibility maintainer: **0chium**. This independently maintained GPL-3.0 fork retains the original preferences and adds narrowly scoped compatibility handling. No original-developer endorsement is implied.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Setup and preferences"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Requires mobilesubstrate 0.9.5000 or later and Cephei (ws.hbang.common) 1.17 or later. Rootless package.\n\nThis package replaces com.jschiefner.advancedbrightnessslider. Review the package-manager replacement transaction; do not force co-installation. Existing preference storage is retained. The owner reported successful candidate replacement with the threshold preserved on iOS 18.3.2; other migration scenarios are not certified.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source and installation",
+          "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Report an issue",
+          "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued/issues",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Reports are public. Remove passwords, tokens, Apple Account details, unique device identifiers and sensitive information from attachments.",
+          "useSpacing": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Compatibility",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Specific owner reports"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329): owner reports working brightness mapping and threshold preferences.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82): owner reports functional success and successful Sileo replacement of the earlier package, preserving the threshold.\n\nThese are specific candidate results, not comprehensive certification of every iOS 17/18 device. The final source/support-link rebuild has not been installed; 1.2.2-1 is a metadata-only version of that final payload.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Not established"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**iPhone SE (2nd generation), iOS 18.2 (22C152):** statically inspected but runtime untested for this update.\n\n**iOS 16:** legacy path retained; the rebuilt continued release is not runtime validated there.\n\n**iOS 26.0.1:** planned, untested and unsupported by current guards. Other modern builds and modern Prysm/BigSurCenter configurations are not claimed as supported.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Known limitations"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Auto-Brightness suppression retains the existing implementation; native-service effectiveness is not independently verified.\n- Accessibility White Point changes may affect the screen without repositioning Control Center.\n- Controlled disablement conditionally restores borrowed settings only while ownership remains uncontested. Crash, SpringBoard restart or removal cannot guarantee cleanup; system settings may remain changed.\n- Startup brightness is not restored.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Complete compatibility notes",
+          "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued#build-specific-compatibility",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Release",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 1.2.2-1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Metadata-only version update from 1.2.1+0chium.1. Installed executable and resource payloads are unchanged. No new brightness behavior or broader compatibility is introduced.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.2.2-1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "License",
+          "text": "GPL-3.0"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Credits"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Original AdvancedBrightnessSlider and presentation assets: **Jonas Schiefner**. Continued compatibility maintenance: **0chium**. Original GPL-3.0 licensing, copyright notices and upstream credits are retained.\n\nOriginal credits include opa334 / WhitePointModule, rpetrich / Flipswitch, PoomSmart and zaneh.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Original project",
+          "action": "https://github.com/jschiefner/advanced-brightness-slider-tweak",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Changes in the continued fork",
+          "action": "https://github.com/0chium/AdvancedBrightnessSlider-Continued/blob/main/CHANGELOG.md",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GPL-3.0 license",
+          "action": "https://0chium.github.io/assets/advancedbrightnessslider/LICENSE",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Screenshot source and credits",
+          "action": "https://0chium.github.io/assets/advancedbrightnessslider/ATTRIBUTION.md",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support Jonas Schiefner",
+          "action": "https://paypal.me/JonasSchiefner",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The donation link above belongs to the original developer, Jonas Schiefner. It has not been redirected to the compatibility maintainer. Donations are optional; the tweak remains free.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "HTML depiction",
+          "action": "https://0chium.github.io/depictions/advancedbrightnessslider.html",
+          "openExternal": true
+        }
+      ]
+    }
+  ]
+}

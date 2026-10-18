@@ -16,6 +16,7 @@ SHA256: 652a6598e9cdb417e88f87219d2efb94d2e9b1a838a265074942a862c269c0fc
 SHA512: b92188a2c5ff3fdafef4ab9ce6b8beb4d504199b138aac5fd749bdb2ed17cb57b6fc0aa1be82bb03f390e92d0e1753cb75a7a701da9d4270d353ffb61f17eadd
 Icon: https://0chium.github.io/assets/Lantern-public-on.png
 Depiction: https://0chium.github.io/depiction.html
+SileoDepiction: https://0chium.github.io/depictions/lantern.json
 
 Package: com.ochium.lantern
 Name: Lantern
@@ -57,6 +58,7 @@ MD5sum: 6261a8410102ed86604437d3ec329ff5
 SHA1: f9b0aa7c84f2a11c613351c52887556a967f8018
 SHA256: 187626611ab5aa1658bd5b0195d13f3d67d57d745b65d199f9b802b9ff25fce9
 SHA512: 7dec1034e24132d6bb9eae880e22ab9240558ab11f68565263bfaf1fdf3165c49b77221e0984a92e82524feb5c02968e3599359be4f6aba801af56fa4029d14c
+SileoDepiction: https://0chium.github.io/depictions/advancedbrightnessslider.json
 
 Package: com.ochium.advancedbrightnessslider
 Name: AdvancedBrightnessSlider Continued

@@ -1,0 +1,181 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://0chium.github.io/assets/Lantern-warm-light-hero.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Warm light, natively."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Tap Lantern for warm/yellow light in Control Center. Press and hold for Apple's native intensity slider. Keep Apple's stock flashlight for white light.\n\nFree, with optional development support. Check the Compatibility tab before installing.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{180, 320}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://0chium.github.io/assets/lantern-control-center-on.jpg",
+              "accessibilityText": "iPhone SE 2 reference: Lantern selected beside the stock flashlight in Control Center"
+            },
+            {
+              "url": "https://0chium.github.io/assets/lantern-expanded-on.jpg",
+              "accessibilityText": "iPhone SE 2 reference: Lantern ON header with the native intensity slider"
+            },
+            {
+              "url": "https://0chium.github.io/assets/lantern-expanded-off.jpg",
+              "accessibilityText": "iPhone SE 2 reference: Lantern OFF header and intensity slider"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Authentic screenshots from the tested iPhone SE (2nd generation). Tap to enlarge. Screenshots show the existing interface, not evidence of support on another device.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Install and activate"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Turn the flashlight OFF and close Camera before installing, updating or removing Lantern. Requires compatible CCSupport and mobilesubstrate.\n\nThe package has no automatic activation scripts. On the documented Dopamine rootless configurations, cameracaptured must be restarted and SpringBoard reloaded using the linked instructions. A respring alone is not the verified complete procedure. RootHide activation and recovery remain unverified.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Installation and activation",
+          "action": "https://0chium.github.io/index.html#add-source",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Report compatibility",
+          "action": "https://github.com/0chium/Lantern/issues/new?template=compatibility_report.yml",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Report a problem",
+          "action": "https://github.com/0chium/Lantern/issues/new?template=bug_report.yml",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Reports are public. Do not post passwords, tokens, Apple Account details, unique device identifiers or unredacted sensitive logs. Logs are optional.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source and documentation",
+          "action": "https://github.com/0chium/Lantern",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support Development (optional)",
+          "action": "https://ko-fi.com/0chium",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Compatibility",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Verified configurations"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**iPhone SE (2nd generation)** — iOS 18.2 (22C152), Dopamine 3.0.10 rootless; physical white/warm/OFF verified. Reference CCSupport: 1.3.13-3~ios18fix1.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82), Dopamine 3 rootless, ElleKit 1.2, CCSupport installed: owner verified warm/OFF, native white ON/OFF and return to warm after the documented activation procedure. Initial white-only behavior resolved; the internal cause remains unproven.\n\nThese results used 0.1.2-1. Version 0.1.3-1 has identical installed binaries/resources; the newly versioned package upgrade has not been tested on device. These exact configurations do not establish blanket iOS or jailbreak support.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Known limitations"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- At the same brightness, switching between Lantern and Apple's flashlight may require a second interaction before physical output changes.\n- Apple's expanded flashlight active indicator may appear while Lantern operates.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Reported problems"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Owner-observed:** iPhone 14 Pro / iOS 17.0 (21A329), Dopamine rootless: selecting Lantern crashes SpringBoard during Control Center initialization and enters Safe Mode. Cause unknown; iPhone 14 Pro warm-light capability is unverified.\n\n**External tester report, not independently verified:** iPhone 11 Pro / iOS 18.1.1, converted RootHide installation: control appears but physical output reportedly remains white. Conversion alone does not establish compatibility.\n\n**Other unverified reports:** Safe Mode on iOS 16.5.1 and functionality on other iOS 18 configurations; exact causes and broader support remain unknown.\n\nIf a crash or Safe Mode occurs, stop testing and preserve existing reports. Do not reproduce a crash to collect logs.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Full compatibility and reporting",
+          "action": "https://github.com/0chium/Lantern#compatibility",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Release",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Version 0.1.3-1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Version-only metadata update from 0.1.2-1. All installed binaries and resources are byte-identical. No functional code, hooks, LED mapping, injection filters, dependencies or activation behavior changed. The same-intensity handoff limitation remains.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "0.1.3-1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "License",
+          "text": "MIT (code)"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Credits and artwork"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Lantern code and project documentation: 0chium and Lantern contributors. Credit to PoomSmart for earlier ISP LED-control work in Amber.\n\nCustom Lantern artwork: Copyright 2026 Lantern contributors, redistributed unmodified under the separate artwork permission. Existing approved hero imagery and owner-supplied screenshots are reused; artwork and screenshots are not placed under MIT.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Artwork permission",
+          "action": "https://0chium.github.io/ARTWORK_PERMISSION.md",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "PoomSmart / Amber",
+          "action": "https://github.com/PoomSmart/Amber",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "HTML depiction",
+          "action": "https://0chium.github.io/depiction.html",
+          "openExternal": true
+        }
+      ]
+    }
+  ]
+}
