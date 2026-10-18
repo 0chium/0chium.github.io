@@ -49,6 +49,28 @@ Homepage: https://github.com/0chium/AdvancedBrightnessSlider-Continued
 Depiction: https://0chium.github.io/depictions/advancedbrightnessslider.html
 Icon: https://0chium.github.io/assets/advancedbrightnessslider.png
 Architecture: iphoneos-arm64
+Version: 1.2.2-1
+Installed-Size: 560
+Filename: debs/com.ochium.advancedbrightnessslider_1.2.2-1_iphoneos-arm64.deb
+Size: 69952
+MD5sum: 6261a8410102ed86604437d3ec329ff5
+SHA1: f9b0aa7c84f2a11c613351c52887556a967f8018
+SHA256: 187626611ab5aa1658bd5b0195d13f3d67d57d745b65d199f9b802b9ff25fce9
+SHA512: 7dec1034e24132d6bb9eae880e22ab9240558ab11f68565263bfaf1fdf3165c49b77221e0984a92e82524feb5c02968e3599359be4f6aba801af56fa4029d14c
+
+Package: com.ochium.advancedbrightnessslider
+Name: AdvancedBrightnessSlider Continued
+Description: Independently maintained compatibility fork of Jonas Schiefner's AdvancedBrightnessSlider
+Maintainer: 0chium
+Author: Jonas Schiefner
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Conflicts: com.jschiefner.advancedbrightnessslider
+Replaces: com.jschiefner.advancedbrightnessslider
+Homepage: https://github.com/0chium/AdvancedBrightnessSlider-Continued
+Depiction: https://0chium.github.io/depictions/advancedbrightnessslider.html
+Icon: https://0chium.github.io/assets/advancedbrightnessslider.png
+Architecture: iphoneos-arm64
 Version: 1.2.1+0chium.1
 Installed-Size: 560
 Filename: debs/com.ochium.advancedbrightnessslider_1.2.1+0chium.1_iphoneos-arm64.deb
