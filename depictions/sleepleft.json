@@ -21,6 +21,22 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{240, 520.678}",
+          "itemCornerRadius": 12,
+          "screenshots": [
+            {
+              "url": "https://0chium.github.io/assets/sleepleft/clock-alarms.jpg",
+              "accessibilityText": "Clock Alarms showing enabled 6:10 AM and 5:20 PM countdowns and a gray disabled 11:45 AM countdown preview."
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Live countdowns beneath ordinary alarms. The gray, disabled alarm is a preview and stays off.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "Ready when you open Clock"
         },
@@ -111,5 +127,6 @@
         }
       ]
     }
-  ]
+  ],
+  "headerImage": "https://0chium.github.io/assets/sleepleft-banner.png"
 }
