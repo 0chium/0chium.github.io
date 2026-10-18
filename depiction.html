@@ -43,7 +43,7 @@ footer{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);font-si
 <main>
 <header>
   <img class="icon" src="assets/Lantern-public-on.png" width="80" height="80" alt="Lantern icon">
-  <div><h1>Lantern</h1><p class="version">Version 0.1.2-1 · Free</p></div>
+  <div><h1>Lantern</h1><p class="version">Version 0.1.3-1 · Free</p></div>
 </header>
 <p class="tagline">Warm light for Control Center.</p>
 <p>Tap Lantern for warm/yellow light. Press and hold to adjust brightness with Apple's native intensity slider. The stock flashlight remains available for white light.</p>
@@ -61,7 +61,7 @@ footer{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);font-si
 
 <section id="compatibility" aria-labelledby="compatibility-title">
 <h2 id="compatibility-title">Compatibility &amp; known issues</h2>
-<div class="verified"><p><strong>Verified working:</strong> iPhone SE (2nd generation), iOS 18.2 (22C152), Dopamine 3.0.10 rootless. Physical white/warm/off behavior was verified on device.</p><p class="small">Tested with CCSupport 1.3.13-3~ios18fix1. Requires compatible CCSupport and mobilesubstrate. Other configurations are unverified.</p></div>
+<div class="verified"><p><strong>Verified working:</strong> iPhone SE (2nd generation), iOS 18.2 (22C152), Dopamine 3.0.10 rootless. Physical white/warm/off behavior was verified on device.</p><p><strong>Owner-verified after activation:</strong> iPhone 11 Pro Max (iPhone12,5), iOS 18.3.2 (22D82), Dopamine 3 rootless, ElleKit 1.2, CCSupport installed. Physical warm/OFF, native white ON/OFF, and return to warm passed after the documented activation procedure. Its initial white-only symptom resolved; the precise internal cause remains unproven.</p><p class="small">The SE 2 reference used CCSupport 1.3.13-3~ios18fix1; the D10 CCSupport version was not recorded. Requires compatible CCSupport and mobilesubstrate. Other configurations are unverified.</p></div>
 <ul>
   <li><strong>Owner-observed:</strong> iPhone 14 Pro, iOS 17.0 (21A329), Dopamine rootless: selecting Lantern crashes SpringBoard during Control Center initialization and enters Safe Mode. The cause is unknown. Warm-light capability on iPhone 14 Pro is unverified.</li>
   <li><strong>Tester-reported, not independently verified:</strong> iPhone 11 Pro, iOS 18.1.1, converted RootHide installation: the control appears, but the light reportedly remains white. Conversion does not establish compatibility.</li>
@@ -79,8 +79,8 @@ footer{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);font-si
 </section>
 
 <section aria-labelledby="release-title">
-<h2 id="release-title">What's new in 0.1.2-1</h2>
-<p>This revision adds the required CCSupport dependency to package metadata. Flashlight behavior and installed files are unchanged.</p>
+<h2 id="release-title">What's new in 0.1.3-1</h2>
+<p>Version-only metadata update from 0.1.2-1. All installed binaries and resources are byte-identical. No functional code, LED mapping, injection, dependency or activation changes were made.</p><p class="small">Physical verification used 0.1.2-1 on the configurations above. Testing of the newly versioned package upgrade is pending. The same-intensity handoff limitation remains.</p>
 </section>
 
 <section aria-labelledby="support-title">
