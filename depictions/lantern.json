@@ -17,6 +17,11 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Tested on iOS 18**\n\n- **iPhone SE (2nd generation)** — iOS 18.2\n- **iPhone 11 Pro Max** — iOS 18.3.2\n\n**Support is limited to the tested configurations.** Newer iPhones are not supported by this release. Other models and iOS versions remain unverified. **iPhone 14 Pro on iOS 17.0 has a known Safe Mode issue.** See Compatibility for full requirements and limitations.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionScreenshotsView",
           "itemSize": "{180, 320}",
           "itemCornerRadius": 12,
