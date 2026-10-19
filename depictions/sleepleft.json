@@ -12,12 +12,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "See the hours, minutes and seconds until your alarms, updated live in Apple's Clock app. Sleep Left adds the countdown beneath each ordinary alarm, alongside your existing label.",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Enabled and disabled alarms both show a countdown. For a disabled alarm, the countdown is a preview; the alarm stays off. Sleep/Wake Up alarms are not included.",
+          "markdown": "Live countdowns beneath your alarm labels. See the hours, minutes and seconds at a glance.",
           "useSpacing": true
         },
         {
@@ -33,16 +28,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Live countdowns beneath ordinary alarms. The gray, disabled alarm is a preview and stays off.",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Ready when you open Clock"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Install Sleep Left, fully close and reopen Clock, then open Alarms. No Settings pane or extra configuration.",
+          "markdown": "Appears automatically in Clock. No configuration needed.",
           "useSpacing": true
         },
         {
@@ -51,8 +37,14 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Independently developed by **0chium**, inspired by **AlarmTime by P2KDev**. Original code and included crescent artwork are MIT licensed. No AlarmTime code or artwork is included.",
+          "markdown": "An independent implementation by **0chium**, inspired by **AlarmTime by P2KDev**. Free and MIT licensed.",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "MIT license",
+          "action": "https://github.com/0chium/SleepLeft/blob/main/LICENSE",
+          "openExternal": true
         },
         {
           "class": "DepictionTableButtonView",
@@ -74,30 +66,32 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Specific owner-reported results"
+          "title": "Tested configurations"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "The owner reports initial functional passes for **0.1.0~alpha1** on **iPhone 14 Pro — iOS 17.0 (21A329)** and **iPhone 11 Pro Max — iOS 18.3.2 (22D82)**, without another alarm-countdown tweak active. Checks covered enabled/disabled countdowns, custom labels, editing/toggling, scrolling without duplicate or mismatched text, and catch-up after returning to Clock. These are owner reports, not comprehensive compatibility, accessibility, calendar-edge-case or performance certification. The final **0.1.0** package has not itself received device testing.",
+          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329)\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82)",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Owner testing used the alpha. The public release retains the same implementation and has not been separately tested on device.",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Limitations"
+          "title": "Compatibility notes"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Sleep/Wake Up is excluded. No blanket iOS 17/18 or iOS 26 support. Other configurations and RootHide conversion are unverified. Recurrence/DST and snooze/time-zone edge cases are not comprehensively tested. VoiceOver custom content and large text remain unverified by owner testing. No measured battery, CPU or reliability claims. Countdown units are English.",
+          "markdown": "Sleep/Wake Up alarms are not included. Disabled alarms show a countdown preview and remain off. Countdown units are English.\n\nOther configurations, including RootHide, are unverified. iOS 26 is unsupported. Use one alarm-countdown tweak at a time.",
           "useSpacing": true
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "Other countdown tweaks"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "If another alarm-countdown tweak is installed, disable or remove it so only one modifies the alarm rows.",
-          "useSpacing": true
+          "class": "DepictionTableButtonView",
+          "title": "Full compatibility notes",
+          "action": "https://github.com/0chium/SleepLeft#compatibility",
+          "openExternal": true
         }
       ]
     },
@@ -111,12 +105,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "First public release as Sleep Left. Accepted implementation unchanged from the tested alpha. New package identity, approved crescent artwork, source/support links and documentation. Conflicts with and replaces com.ochium.fivemoreminutes; one injection pair, with internal names retained.",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "This final package has not itself received device testing.",
+          "markdown": "First public release. Live alarm countdowns in Clock, with your existing labels and controls.",
           "useSpacing": true
         },
         {
