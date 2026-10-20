@@ -75,7 +75,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Owner testing used the alpha. The public release retains the same implementation and has not been separately tested on device.",
+          "markdown": "Owner testing used the earlier alpha. The 0.1.1 package has not been separately tested on device. 0.1.1 enables installation and initialization on exactly iOS 26.0.1. Runtime compatibility remains unverified; owner testing is pending. Countdown behavior and existing interface/layout checks are unchanged.",
           "useSpacing": true
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Sleep/Wake Up alarms are not included. Disabled alarms show a countdown preview and remain off. Countdown units are English.\n\nOther configurations, including RootHide, are unverified. iOS 26 is unsupported. Use one alarm-countdown tweak at a time.",
+          "markdown": "Sleep/Wake Up alarms are not included. Disabled alarms show a countdown preview and remain off. Countdown units are English.\n\nOther configurations, including RootHide, are unverified. Other iOS 26 versions are not admitted. Use one alarm-countdown tweak at a time.",
           "useSpacing": true
         },
         {
@@ -99,6 +99,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.1.1"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "0.1.1 enables installation and initialization on exactly iOS 26.0.1. Runtime compatibility remains unverified; owner testing is pending. Countdown behavior and existing interface/layout checks are unchanged.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "0.1.0"
