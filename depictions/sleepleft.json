@@ -17,6 +17,11 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "Available to try on iOS/iPadOS 17 through 26 with a compatible rootless jailbreak. No Dopamine-only requirement. Tested configurations are listed separately; other combinations need testing.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionScreenshotsView",
           "itemSize": "{240, 520.678}",
           "itemCornerRadius": 12,
@@ -66,6 +71,11 @@
       "tabname": "Compatibility",
       "views": [
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "Available to try on iOS/iPadOS 17 through 26 with a compatible rootless jailbreak. No Dopamine-only requirement. Tested configurations are listed separately; other combinations need testing.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "Tested configurations"
         },
@@ -76,7 +86,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Owner reports Sleep Left 0.1.1 working on iPhone SE (2nd generation), iOS 26.0.1 (23A355). Earlier iOS 17.0 and 18.3.2 functional checks used the alpha. Other configurations remain unverified.",
+          "markdown": "Owner reports Sleep Left 0.1.1 working on iPhone SE (2nd generation), iOS 26.0.1 (23A355). Earlier iOS 17.0 and 18.3.2 functional checks used the alpha. Other configurations remain unverified. Version 0.1.2 broadens admission without changing countdown behavior; this new build is not separately device-tested.",
           "useSpacing": true
         },
         {
@@ -85,7 +95,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Sleep/Wake Up alarms are not included. Disabled alarms show a countdown preview and remain off. Countdown units are English.\n\nOther configurations, including RootHide, are unverified. Other iOS 26 versions are not admitted. Use one alarm-countdown tweak at a time.",
+          "markdown": "Sleep/Wake Up alarms are not included. Disabled alarms show a countdown preview and remain off. Countdown units are English.\n\nOther configurations, including RootHide, are unverified. All versions within iOS/iPadOS 17–26 are allowed to try. Use one alarm-countdown tweak at a time.",
           "useSpacing": true
         },
         {
@@ -100,6 +110,15 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "0.1.2"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Allows all minor and patch versions within iOS/iPadOS 17–26. Retains native method/type and layout checks, countdown behavior, artwork and credits. Earlier test results are preserved; this new build is not device-tested.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionHeaderView",
           "title": "0.1.1"

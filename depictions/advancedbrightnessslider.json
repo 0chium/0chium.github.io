@@ -18,6 +18,11 @@
           "useSpacing": true
         },
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "Available to try on iOS/iPadOS 17 through 26 with a compatible rootless jailbreak. No Dopamine-only requirement. Tested configurations are listed separately; other combinations need testing.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionScreenshotsView",
           "itemSize": "{180, 343.4}",
           "itemCornerRadius": 12,
@@ -78,12 +83,17 @@
       "tabname": "Compatibility",
       "views": [
         {
+          "class": "DepictionMarkdownView",
+          "markdown": "Available to try on iOS/iPadOS 17 through 26 with a compatible rootless jailbreak. No Dopamine-only requirement. Tested configurations are listed separately; other combinations need testing.",
+          "useSpacing": true
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "Specific owner reports"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329): owner reports working brightness mapping and threshold preferences.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82): owner reports functional success and successful Sileo replacement of the earlier package, preserving the threshold.\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355): owner reports working brightness mapping with the tested iOS 26 adapter. The Threshold slider’s numeric value is not visible in Settings.\n\nThe iOS 17.0 and 18.3.2 reports used earlier candidates. The iOS 26.0.1 report used 1.2.2-1+abs26exp.1; 1.2.3-1 reuses its complete installed payload unchanged. These results cover the listed configurations, not every iOS version or device.",
+          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329): owner reports working brightness mapping and threshold preferences.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82): owner reports functional success and successful Sileo replacement of the earlier package, preserving the threshold.\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355): owner reports working brightness mapping with the tested iOS 26 adapter. The Threshold slider’s numeric value is not visible in Settings.\n\nThe iOS 17.0 and 18.3.2 reports used earlier candidates. The iOS 26.0.1 report used 1.2.2-1+abs26exp.1. Version 1.2.4-1 broadens admission and is not separately device-tested. These reports do not establish every combination working.",
           "useSpacing": true
         },
         {
@@ -92,7 +102,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone SE (2nd generation), iOS 18.2 (22C152):** statically inspected but runtime untested for this update.\n\n**iOS 16:** legacy path retained; the rebuilt continued release is not runtime validated there.\n\nOther modern builds, including other iOS 26 versions, are not enabled. Modern Prysm/BigSurCenter configurations are not claimed as supported.",
+          "markdown": "**iPhone SE (2nd generation), iOS 18.2 (22C152):** statically inspected but runtime untested for this update.\n\n**iOS 16:** legacy path retained; the rebuilt continued release is not runtime validated there.\n\nOther versions within iOS/iPadOS 17–26 are now allowed to try. Modern Prysm/BigSurCenter configurations and rootful/RootHide conversions remain unverified.\n\n**Community report:** iPad (9th generation) / iPadOS 17.0 / Dopamine reportedly works. An A10X iPad / 17.7.8 / palera1n reportedly did not work with an earlier release; that OS was excluded by the old guard. Results with 1.2.4-1 are pending.",
           "useSpacing": true
         },
         {
@@ -118,17 +128,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Version 1.2.3-1"
+          "title": "Version 1.2.4-1"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Adds iOS 26.0.1 using the adapter tested on iPhone SE (2nd generation). Reuses the tested package’s installed binaries and resources without recompilation. Existing brightness mapping, preferences and credits are preserved.",
+          "markdown": "Removes exact-build locks across iOS/iPadOS 17–26. Retains native interface prerequisites, rendering/preview checks and existing brightness behavior. New build; earlier tested configurations remain listed separately.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.3-1"
+          "text": "1.2.4-1"
         },
         {
           "class": "DepictionTableTextView",

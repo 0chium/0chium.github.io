@@ -149,4 +149,49 @@ SHA1: b5d0def589cea927a1c4aa214d4aec7a05a99271
 SHA256: a46723038abfe21eebb56939f815cff927ef1e78ed3ad9d59f514fa5c25878df
 SHA512: 8e6a3f065f4c89a708d853312e1b96b0312156f859c84435516d06bc681e2dd2d210ef9204c3b49970352339cd88f2d1627ff8e4ea51d19baf92bdae69bfebfb
 SileoDepiction: https://0chium.github.io/depictions/advancedbrightnessslider.json
+Package: com.ochium.advancedbrightnessslider
+Name: AdvancedBrightnessSlider Continued
+Description: Go beyond minimum brightness.
+Maintainer: 0chium
+Author: Jonas Schiefner
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Conflicts: com.jschiefner.advancedbrightnessslider
+Replaces: com.jschiefner.advancedbrightnessslider
+Homepage: https://github.com/0chium/AdvancedBrightnessSlider-Continued
+Depiction: https://0chium.github.io/depictions/advancedbrightnessslider.html
+Icon: https://0chium.github.io/assets/advancedbrightnessslider.png
+Architecture: iphoneos-arm64
+Version: 1.2.4-1
+Installed-Size: 560
+SileoDepiction: https://0chium.github.io/depictions/advancedbrightnessslider.json
+Filename: debs/com.ochium.advancedbrightnessslider_1.2.4-1_iphoneos-arm64.deb
+Size: 69468
+MD5sum: cceea2d0321fe9e189f1594b483a6da8
+SHA1: 9aff03a1dab7743301e1801f8aae663db409c956
+SHA256: 9aff4cfd02d98540bafb740ae7fe5591615383324d13632e6939e876ee6a6dbb
+SHA512: 1baca971a876cd10f23c4c2fed9a2f65781a8d4974989f0b802f21d4cd40d9bd27c8714a2236f86db8e89b0a7816a70174907a7864ec1feb9834b72c672d8bf2
+
+Package: com.ochium.sleepleft
+Name: Sleep Left
+Description: Live time remaining in Apple's ordinary Clock alarm rows.
+Maintainer: 0chium
+Author: 0chium
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 27.0)
+Conflicts: com.ochium.fivemoreminutes
+Replaces: com.ochium.fivemoreminutes
+Homepage: https://github.com/0chium/SleepLeft
+Depiction: https://0chium.github.io/depictions/sleepleft.html
+SileoDepiction: https://0chium.github.io/depictions/sleepleft.json
+Icon: https://0chium.github.io/assets/sleepleft.png
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 240
+Filename: debs/com.ochium.sleepleft_0.1.2_iphoneos-arm64.deb
+Size: 49552
+MD5sum: 8b863505487005462ee85494db9109c2
+SHA1: 9432762b42550751288a0f2662beb5bf7b0fee2a
+SHA256: e29bee212a38f1954af0aa4dc5049b6e4316b79ab6993d3d529130a726771390
+SHA512: 0ff15ab54782d4b5dee95e4a527026c9a45b6f7cb859229cb97e13630304bbb4c313e59d85bba689544ec5b42925b62b4104a42c41f1810e540b8327d1d423ad
 
