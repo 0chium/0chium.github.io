@@ -127,4 +127,26 @@ MD5sum: ae0ebd490523beda9910371f8fa732b7
 SHA1: a9acbe18175b7aa6632096d353df77923fbd06e8
 SHA256: 548d79d5cd5592a54aeb9b1e9c2416dc1e7e2e78049d0f2e7c2080bbaad19cbb
 SHA512: d5d5afaf3dd055832e94f288475c5eb6569ef9eb2207f4b3bf899d8bc00e07b1121c66983dc90654f5c70a84cde32124341a59523b876478bac217aca85197c6
+Package: com.ochium.advancedbrightnessslider
+Name: AdvancedBrightnessSlider Continued
+Description: Go beyond minimum brightness.
+Maintainer: 0chium
+Author: Jonas Schiefner
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Conflicts: com.jschiefner.advancedbrightnessslider
+Replaces: com.jschiefner.advancedbrightnessslider
+Homepage: https://github.com/0chium/AdvancedBrightnessSlider-Continued
+Depiction: https://0chium.github.io/depictions/advancedbrightnessslider.html
+Icon: https://0chium.github.io/assets/advancedbrightnessslider.png
+Architecture: iphoneos-arm64
+Version: 1.2.3-1
+Installed-Size: 560
+Filename: debs/com.ochium.advancedbrightnessslider_1.2.3-1_iphoneos-arm64.deb
+Size: 70104
+MD5sum: 94f4deac98104d763c8800c359b75b04
+SHA1: b5d0def589cea927a1c4aa214d4aec7a05a99271
+SHA256: a46723038abfe21eebb56939f815cff927ef1e78ed3ad9d59f514fa5c25878df
+SHA512: 8e6a3f065f4c89a708d853312e1b96b0312156f859c84435516d06bc681e2dd2d210ef9204c3b49970352339cd88f2d1627ff8e4ea51d19baf92bdae69bfebfb
+SileoDepiction: https://0chium.github.io/depictions/advancedbrightnessslider.json
 

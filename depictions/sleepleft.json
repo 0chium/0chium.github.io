@@ -8,7 +8,7 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Time remaining. Right in Clock."
+          "title": "See your sleep time remaining, right in Clock."
         },
         {
           "class": "DepictionMarkdownView",
@@ -70,12 +70,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329)\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82)",
+          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329)\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82)\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355)",
           "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Owner testing used the earlier alpha. The 0.1.1 package has not been separately tested on device. 0.1.1 enables installation and initialization on exactly iOS 26.0.1. Runtime compatibility remains unverified; owner testing is pending. Countdown behavior and existing interface/layout checks are unchanged.",
+          "markdown": "Owner reports Sleep Left 0.1.1 working on iPhone SE (2nd generation), iOS 26.0.1 (23A355). Earlier iOS 17.0 and 18.3.2 functional checks used the alpha. Other configurations remain unverified.",
           "useSpacing": true
         },
         {
@@ -105,7 +105,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "0.1.1 enables installation and initialization on exactly iOS 26.0.1. Runtime compatibility remains unverified; owner testing is pending. Countdown behavior and existing interface/layout checks are unchanged.",
+          "markdown": "Enables installation and initialization on exactly iOS 26.0.1, now owner-tested on iPhone SE (2nd generation). Countdown behavior and existing interface/layout checks are unchanged.",
           "useSpacing": true
         },
         {

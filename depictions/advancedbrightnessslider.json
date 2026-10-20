@@ -82,7 +82,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329): owner reports working brightness mapping and threshold preferences.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82): owner reports functional success and successful Sileo replacement of the earlier package, preserving the threshold.\n\nThese are specific candidate results, not comprehensive certification of every iOS 17/18 device. The final source/support-link rebuild has not been installed; 1.2.2-1 is a metadata-only version of that final payload.",
+          "markdown": "**iPhone 14 Pro** — iOS 17.0 (21A329): owner reports working brightness mapping and threshold preferences.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82): owner reports functional success and successful Sileo replacement of the earlier package, preserving the threshold.\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355): owner reports working brightness mapping with the tested iOS 26 adapter. The Threshold slider’s numeric value is not visible in Settings.\n\nThe iOS 17.0 and 18.3.2 reports used earlier candidates. The iOS 26.0.1 report used 1.2.2-1+abs26exp.1; 1.2.3-1 reuses its complete installed payload unchanged. These results cover the listed configurations, not every iOS version or device.",
           "useSpacing": true
         },
         {
@@ -91,7 +91,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone SE (2nd generation), iOS 18.2 (22C152):** statically inspected but runtime untested for this update.\n\n**iOS 16:** legacy path retained; the rebuilt continued release is not runtime validated there.\n\n**iOS 26.0.1:** planned, untested and unsupported by current guards. Other modern builds and modern Prysm/BigSurCenter configurations are not claimed as supported.",
+          "markdown": "**iPhone SE (2nd generation), iOS 18.2 (22C152):** statically inspected but runtime untested for this update.\n\n**iOS 16:** legacy path retained; the rebuilt continued release is not runtime validated there.\n\nOther modern builds, including other iOS 26 versions, are not enabled. Modern Prysm/BigSurCenter configurations are not claimed as supported.",
           "useSpacing": true
         },
         {
@@ -100,7 +100,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Auto-Brightness suppression retains the existing implementation; native-service effectiveness is not independently verified.\n- Accessibility White Point changes may affect the screen without repositioning Control Center.\n- Controlled disablement conditionally restores borrowed settings only while ownership remains uncontested. Crash, SpringBoard restart or removal cannot guarantee cleanup; system settings may remain changed.\n- Startup brightness is not restored.",
+          "markdown": "- Auto-Brightness suppression retains the existing implementation; native-service effectiveness is not independently verified.\n- Accessibility White Point changes may affect the screen without repositioning Control Center.\n- Controlled disablement conditionally restores borrowed settings only while ownership remains uncontested. Crash, SpringBoard restart or removal cannot guarantee cleanup; system settings may remain changed.\n- Startup brightness is not restored.\n- On iOS 26.0.1, Settings does not show the Threshold slider’s numeric value.\n- iOS 26.0.1 preview isolation has not received a separate focused device test.",
           "useSpacing": true
         },
         {
@@ -117,17 +117,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Version 1.2.2-1"
+          "title": "Version 1.2.3-1"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Metadata-only version update from 1.2.1+0chium.1. Installed executable and resource payloads are unchanged. No new brightness behavior or broader compatibility is introduced.",
+          "markdown": "Adds iOS 26.0.1 using the adapter tested on iPhone SE (2nd generation). Reuses the tested package’s installed binaries and resources without recompilation. Existing brightness mapping, preferences and credits are preserved.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.2-1"
+          "text": "1.2.3-1"
         },
         {
           "class": "DepictionTableTextView",
