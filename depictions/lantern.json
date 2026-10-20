@@ -8,8 +8,9 @@
       "tabname": "Details",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "Warm lighting with its own toggle for Control Center."
+          "class": "DepictionMarkdownView",
+          "markdown": "## Warm lighting with its own toggle for Control Center.",
+          "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",

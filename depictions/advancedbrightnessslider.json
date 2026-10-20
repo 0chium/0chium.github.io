@@ -8,8 +8,9 @@
       "tabname": "Details",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "Go beyond minimum brightness."
+          "class": "DepictionMarkdownView",
+          "markdown": "## Go beyond minimum brightness.",
+          "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",

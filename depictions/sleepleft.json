@@ -7,8 +7,9 @@
       "tabname": "Details",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "See your sleep time remaining, right in Clock."
+          "class": "DepictionMarkdownView",
+          "markdown": "## See your sleep time remaining, right in Clock.",
+          "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
