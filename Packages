@@ -195,3 +195,26 @@ SHA1: 9432762b42550751288a0f2662beb5bf7b0fee2a
 SHA256: e29bee212a38f1954af0aa4dc5049b6e4316b79ab6993d3d529130a726771390
 SHA512: 0ff15ab54782d4b5dee95e4a527026c9a45b6f7cb859229cb97e13630304bbb4c313e59d85bba689544ec5b42925b62b4104a42c41f1810e540b8327d1d423ad
 
+Package: com.ochium.sleepleft
+Name: Sleep Left
+Description: Live time remaining in Apple's ordinary Clock alarm rows.
+Maintainer: 0chium
+Author: 0chium
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 27.0)
+Conflicts: com.ochium.fivemoreminutes
+Replaces: com.ochium.fivemoreminutes
+Homepage: https://github.com/0chium/SleepLeft
+Depiction: https://0chium.github.io/depictions/sleepleft.html
+SileoDepiction: https://0chium.github.io/depictions/sleepleft.json
+Icon: https://0chium.github.io/assets/sleepleft.png
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 240
+Filename: debs/com.ochium.sleepleft_0.1.3_iphoneos-arm64.deb
+Size: 49508
+MD5sum: 87826c96d4a18b3a0b4dce2e426662ac
+SHA1: 9a214b7a8b287510bf2742865cd09ef41531e708
+SHA256: b6d6c54be0a0b92bc27b9de8c9484c0c5dbfe931b62023597a6f10d14014d1ff
+SHA512: a347a3077bd67affc4d78a63ebfe68dae964a908ca705d7df8d90b38bc88c7449a04b5ab560e0fbec799325a44c9b77b342913c15a0a15069e11cd7e0b9ed54b
+
