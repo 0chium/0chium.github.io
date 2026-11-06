@@ -1,0 +1,34 @@
+name: Publish Lantern 0.1.4-1 hardware restriction
+on:
+  push:
+    paths:
+      - '.github/workflows/release-lantern-0.1.4.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Build, verify, and index the metadata-only package
+        run: python3 scripts/release_lantern_0_1_4.py
+
+      - name: Check release metadata and commit
+        run: |
+          set -euo pipefail
+          git diff --check
+          test -f debs/com.ochium.lantern_0.1.4-1_iphoneos-arm64.deb
+          test "$(dpkg-deb -f debs/com.ochium.lantern_0.1.4-1_iphoneos-arm64.deb Version)" = "0.1.4-1"
+          git config user.name "0chium release automation"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- Packages Packages.gz Release debs/com.ochium.lantern_0.1.4-1_iphoneos-arm64.deb depiction.html depictions/lantern.json index.html
+          git diff --cached --check
+          git commit -m "Release Lantern 0.1.4-1 with warm-LED model dependency"
+          git push origin HEAD:main
