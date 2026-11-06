@@ -4,6 +4,26 @@ Description: Native warm flashlight
 Maintainer: ochium
 Author: ochium
 Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, cy+model.iphone (<< 14.7)
+Architecture: iphoneos-arm64
+Version: 0.1.4-1
+Installed-Size: 464
+Filename: debs/com.ochium.lantern_0.1.4-1_iphoneos-arm64.deb
+Size: 34592
+MD5sum: a73488b8cb4e715470cf4d90a6a178c0
+SHA1: a9f63e2f977f03e9dc40347bd0250d43855aebef
+SHA256: e0405f41558921263dca44ae1a940707ff9455e338161a40de03933e3b9f887d
+SHA512: 62ec111123dd8934f1cba20eb20c68a6dc7def92b6b87e9cc2a1d9bc0207d9b139d22d1d0259be3e6d8a07941881127937214aefd1fcdc0295bf40c81190e972
+Icon: https://0chium.github.io/CydiaIcon.png
+Depiction: https://0chium.github.io/depiction.html
+SileoDepiction: https://0chium.github.io/depictions/lantern.json
+
+Package: com.ochium.lantern
+Name: Lantern
+Description: Native warm flashlight
+Maintainer: ochium
+Author: ochium
+Section: Tweaks
 Depends: mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64
 Version: 0.1.3-1
