@@ -103,7 +103,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iPhone SE (2nd generation)** — iOS 18.2 (22C152), Dopamine 3.0.10 rootless; physical white/warm/OFF verified. Reference CCSupport: 1.3.13-3~ios18fix1.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82), Dopamine 3 rootless, ElleKit 1.2, CCSupport installed: owner verified warm/OFF, native white ON/OFF and return to warm after the documented activation procedure. Initial white-only behavior resolved; the internal cause remains unproven.\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355): owner reports working Lantern. The installed package and jailbreak/dependency versions were not recorded with this report.\n\nThe iOS 18 results used 0.1.2-1. Version 0.1.4-1 preserves identical installed binaries/resources. These exact configurations do not establish blanket iOS or jailbreak support.",
+          "markdown": "**iPhone SE (2nd generation)** — iOS 18.2 (22C152), Dopamine 3.0.10 rootless; physical white/warm/OFF verified. Reference CCSupport: 1.3.13-3~ios18fix1.\n\n**iPhone 11 Pro Max** — iOS 18.3.2 (22D82), Dopamine 3 rootless, ElleKit 1.2, CCSupport installed: owner verified warm/OFF, native white ON/OFF and return to warm after the documented activation procedure. Initial white-only behavior resolved; the internal cause remains unproven.\n\n**iPhone SE (2nd generation)** — iOS 26.0.1 (23A355): owner reports working Lantern. The installed package and jailbreak/dependency versions were not recorded with this report.\n\nThe iOS 18 results used 0.1.2-1. Version 0.1.5-1 preserves identical installed binaries/resources. These exact configurations do not establish blanket iOS or jailbreak support.",
           "useSpacing": true
         },
         {
@@ -138,17 +138,17 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Version 0.1.4-1"
+          "title": "Version 0.1.5-1"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Installation is now restricted to iPhones with warm/white flashlight LED hardware (iPhone 13 series and earlier, including SE 3). No changes to flashlight functionality. The same-intensity handoff limitation remains.",
+          "markdown": "Sileo now requests a device restart after installation or update to activate the warm flashlight. You can choose Reboot Device Later. No changes to the flashlight code or supported hardware. The same-intensity handoff limitation remains.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.1.4-1"
+          "text": "0.1.5-1"
         },
         {
           "class": "DepictionTableTextView",
