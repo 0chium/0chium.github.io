@@ -11,12 +11,12 @@ CHANGELOG = "Sileo now requests a device restart after installation or update to
 POSTINST = """#!/bin/sh
 # Request Sileo's deferred restart action; do not reboot from dpkg.
 # Sileo implements finish:reboot using ldrestart on current iOS.
-if [ "\${1:-}" = "configure" ] && [ -n "\${CYDIA:-}" ]; then
-    set -- \$CYDIA
-    case "\${1:-}" in ''|*[!0-9]*) exit 0 ;; esac
-    case "\${2:-}" in ''|*[!0-9]*) exit 0 ;; esac
-    if [ "\$2" -ge 1 ]; then
-        eval "printf 'finish:reboot\\n' >&\$1" || :
+if [ "${1:-}" = "configure" ] && [ -n "${CYDIA:-}" ]; then
+    set -- $CYDIA
+    case "${1:-}" in ''|*[!0-9]*) exit 0 ;; esac
+    case "${2:-}" in ''|*[!0-9]*) exit 0 ;; esac
+    if [ "$2" -ge 1 ]; then
+        eval "printf 'finish:reboot\\n' >&$1" || :
     fi
 fi
 exit 0
