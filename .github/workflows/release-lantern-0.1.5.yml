@@ -1,0 +1,32 @@
+name: Publish Lantern 0.1.5-1 Sileo restart request
+on:
+  push:
+    paths:
+      - '.github/workflows/release-lantern-0.1.5.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Build and verify the deferred restart package and index
+        run: python3 scripts/release_lantern_0_1_5.py
+      - name: Commit published release
+        run: |
+          set -euo pipefail
+          git diff --check
+          test -f debs/com.ochium.lantern_0.1.5-1_iphoneos-arm64.deb
+          test "$(dpkg-deb -f debs/com.ochium.lantern_0.1.5-1_iphoneos-arm64.deb Version)" = "0.1.5-1"
+          git config user.name "0chium release automation"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- Packages Packages.gz Release debs/com.ochium.lantern_0.1.5-1_iphoneos-arm64.deb depiction.html depictions/lantern.json index.html
+          git diff --cached --check
+          git commit -m "Release Lantern 0.1.5-1 with deferred Sileo reboot action"
+          git push origin HEAD:main
